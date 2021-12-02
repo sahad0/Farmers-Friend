@@ -1,0 +1,349 @@
+*{
+    margin: 0;                                                                            
+    padding: 0;
+}
+
+:root{
+    --font-nav-:'Galdeano', sans-serif;                                                 /*Main root*/
+}
+
+
+
+
+
+
+#nav1{
+    background-color: #ffff;
+    height:100px;
+}
+#logo1{                                                                     /*navbar logo(farm) */
+    height:80px;
+    width: 91px;
+}
+#l1{
+    font-family: var(--font-nav-);                                         /*navbar links */   
+    font-size:25px;                                                                                               
+    background-color: #ffff;                                                                                    /*Navbar full*/
+    
+    
+}
+#li:hover{
+    background-color: rgb(102, 253, 71);                                                       /*Hover navbar*/
+}
+.icon-bar{
+    background-color: #ffff;
+    color:black;                                                      /*=Mobile viepad icon*/
+}
+.icon-bar:hover{
+    background-color: #ffff;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rooti{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:auto;
+    
+}
+.main-front{
+    margin: 0;
+    padding: 0;
+    margin-top: 101px;
+    background-color: white;
+}
+
+.boxone{
+
+    background-color: rgb(102, 253, 71);
+    height:650px;
+    border-top: 0px solid rgb(102, 253, 71);
+    border-right: 20px solid white;
+}
+.row{
+    margin-top: 101px;
+}
+
+
+
+
+.boxtwo{ 
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+    height:650px;
+    
+    
+}
+.imagemain{
+    height:400px;
+    width: 500px;
+}
+#btnone{
+    width: 115px;
+    height: 70px;
+    background-color: black;
+    margin-left: 18%;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.blockquote-reverse{
+    margin-top: 10%;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+.midhead{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-top: 12%;
+}
+
+.r1{
+    height:630px;
+
+}
+
+.sec2h1{
+    font-size: 40px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-left: 10%;
+}
+.sec2h2{
+    font-size: 15px;
+    margin-top: 5%;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-left: 10%;
+}
+.sec2h3{
+    font-size: 15px;
+    display: block;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-left: 10%;
+}
+.img2{
+    border-radius: 12px;
+    height:500px;
+    width:400px;  
+    margin-left: 20%;  
+}
+
+.imga1{
+    margin-top: 2%;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    margin-left: 20%;
+    
+}
+.imga2{
+    margin-top: 2%;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    margin-left: 20%;
+    
+}
+
+
+
+
+
+
+
+
+
+.r2{
+    height: 250px;
+    border-radius: 10px;
+}
+#a1[data-scroll]{
+    transition:  2s;
+}
+#a1[data-scroll="in"]{
+    opacity: 1;
+    transform: translateY(0);
+}
+#a1[data-scroll="out"]{
+    opacity: 0;
+    transform: translateY(150px);
+}
+#a2[data-scroll]{
+    transition:  2s;
+}
+#a2[data-scroll="in"]{
+    opacity: 1;
+    transform: translateY(0);
+}
+#a2[data-scroll="out"]{
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+
+
+
+
+
+.r3{
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#socialnav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: none;
+    height: 30px;
+}
+#socl{
+    float: right;
+}
+#socailicon{                                                        /*    Social Media Icons embedded on nav  */
+    font-size: 50px;
+}
+#ic1{
+    color: #C0C0C0;
+}
+#ic1:hover{
+    background-color: transparent;
+    color: #1A1A1D;
+}
+#hid{
+    display: none;
+}
+#face3{
+    height: 100px;
+    background-color: rgba(135, 248, 113, 0.986);
+}
+#face5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:45px;
+    background-color: rgba(135, 248, 113, 0.986);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family:var(--navlink-font);
+    word-spacing: 2px;
+}
+#copytags{
+    color:#1A1A1D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .boxone{
+        background-color: rgb(102, 253, 71);
+        height:100px;
+        border-top: 100px solid rgb(102, 253, 71);
+        border-right: 30px solid rgb(102, 253, 71);
+    }
+
+    .imagemain{
+        height:250px;
+        width: 300px;
+    }
+
+
+    #btnone{
+        width: 100px;
+        height: 55px;
+        background-color: black;
+        margin-left: 10%;
+    }
+
+    .midhead{
+        font-family: 'M PLUS 1 Code', sans-serif;
+        margin-top: 0%;
+    }
+    .r2{
+        height: 650px;
+        border-radius: 10px;
+    }
+    .r3{
+        height: 650px;
+        border-radius: 10px;
+    }
+    .r1{
+        height:890px;
+    
+    }
+    .img2{
+        border-radius: 12px;
+        height:400px;
+        width:300px;    
+    }
+    .sec2h3{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
