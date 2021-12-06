@@ -193,6 +193,7 @@
 
 
 .r2{
+    display: block;
     height: 300px;
     
 }
@@ -407,6 +408,7 @@
         margin-top: 0%;
     }
     .r2{
+        display :none;
         height: 650px;
         border-radius: 10px;
     }
@@ -562,6 +564,11 @@
         height:320px;
         margin-top: 10%;
         transition:2s;
+    }
+    #panel2{
+        width:320px;
+        height:400px;
+        margin-top: 10%;
     }
     .btn-success{
         margin-top: 6%;
