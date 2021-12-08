@@ -1,0 +1,45 @@
+
+.rowt1{
+    position: relative;
+    margin-top: 101px;
+    width: 100%;
+    height:auto;
+    
+}
+.img-fluid{
+    margin-left: 40%;
+    height: 50%;
+    width: 50%;
+}
+#panelt1{
+    width: 100%;
+    border : 1px solid white
+}
+.pd{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-bottom: 1px solid black;
+}
+.pd1{
+    margin-left: 2%;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    margin-bottom: 1px solid black;
+}
+.form-inline{
+    margin-top: 5%;
+}
+#country{
+    width: 70%;
+}
+.x1{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.x2{
+    margin-top: 1%;
+}
+#xp1{
+    margin-top: 1%;
+}
+.btnclr{
+    color:green;
+}
