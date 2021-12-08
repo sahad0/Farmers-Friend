@@ -1,0 +1,19 @@
+#pn22{
+    margin-top: 105px;
+    height:600px;
+}
+#pn23{
+    margin-top: 2%;
+    height:600px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox implementation */
+}
+.pred{
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.pred3{
+    color: rgb(24, 196, 24);
+}
+.pred4{
+    color: red;
+}
