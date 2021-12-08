@@ -17,3 +17,6 @@
 .pred4{
     color: red;
 }
+#pn23::-webkit-scrollbar {
+    display: none;
+  }
