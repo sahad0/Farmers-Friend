@@ -1,12 +1,12 @@
 #pn22{
     margin-top: 105px;
-    height:600px;
+    height:700px;
 }
 #pn23{
     margin-top: 2%;
     height:600px;
-    overflow-y: scroll;
-    scrollbar-width: none; /* Firefox implementation */
+    overflow: scroll;
+    scrollbar-width: none; 
 }
 .pred{
     font-family: 'M PLUS 1 Code', sans-serif;
@@ -19,4 +19,11 @@
 }
 #pn23::-webkit-scrollbar {
     display: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #pn22{
+        margin-top: 105px;
+        height:702px;
+    }
   }

@@ -1,0 +1,29 @@
+
+.tp{
+    margin-top: 101px;
+}
+.hx2{
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.xbs{
+    margin-left: 2%;
+}
+.panel{
+    height: 500px;
+    margin-left: 1%;
+    background-image: url(./images/carrot.png);
+    transition: 3s;
+}
+.hider{
+    
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:150px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 99%;
+}
